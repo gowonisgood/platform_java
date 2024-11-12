@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Kim Sul",
+		"age": 28,
+		"salary": 55000.75
+	},
+	{
+		"id": 2,
+		"name": "Lee Han",
+		"age": 32,
+		"salary": 62000.50
+	},
+	{
+		"id": 3,
+		"name": "Park Jun",
+		"age": 24,
+		"salary": 48000.00
+	}
+]
