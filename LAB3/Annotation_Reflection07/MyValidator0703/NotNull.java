@@ -1,11 +1,6 @@
 package MyValidator0703;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+//import jakarta.validation.Validation;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.FIELD)
 public @interface NotNull {
-    String message() default "Must not be null";
+    String message() default "This field cannot be null";
 }
